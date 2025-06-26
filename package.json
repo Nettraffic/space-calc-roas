@@ -1,0 +1,30 @@
+{
+  "name": "space-edu-roas-calculator",
+  "version": "1.0.0",
+  "description": "Sistema inteligente para cálculo e análise de ROAS em campanhas de marketing digital",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "build": "echo 'No build process needed for static site'",
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": [
+    "roas",
+    "marketing",
+    "analytics",
+    "dashboard",
+    "react",
+    "space-edu"
+  ],
+  "author": "Space Edu",
+  "license": "MIT",
+  "homepage": "https://seu-usuario.github.io/space-edu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/space-edu.git"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "gh-pages": "^6.0.0"
+  }
+}
